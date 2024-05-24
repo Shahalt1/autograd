@@ -193,7 +193,7 @@ class Layer(Module):
 
 
 # The __init__ function of the MLP class is only responsible for creating and initializing the layers of the network. The actual forward pass through the
-# network, where n(x) is called for each neuron, happens in the __call__ function of the MLP class.
+# network, where n(x) is called for each neuron, happens in the __call__ function of the MLP class. 
 
 
 class MLP(Module):
